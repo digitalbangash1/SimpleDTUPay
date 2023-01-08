@@ -77,6 +77,11 @@
       <artifactId>jakarta.xml.ws-api</artifactId>
       <version>4.0.0</version>
     </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.10.1</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

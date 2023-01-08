@@ -10,8 +10,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Payment {
-    private String customerId;
-    private String merchantId;
-    private int payment;
+public class SimpleDTUPay {
+    private int amount;
+    private String cid;
+    private String mid;
+
 }
